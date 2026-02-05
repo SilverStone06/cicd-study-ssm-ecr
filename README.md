@@ -1,4 +1,4 @@
-# cicd-study-ssm-ecr
+# CI/CD Study With SSM, ECR
 
 FastAPI/Nginx 애플리케이션을 Docker로 빌드해 AWS ECR에 푸시하고, Private EC2에 SSM으로 배포하는 리포지토리입니다.
 
@@ -18,4 +18,5 @@ FastAPI/Nginx 애플리케이션을 Docker로 빌드해 AWS ECR에 푸시하고,
 - `EC2_INSTANCE_ID`: 배포 대상 EC2 인스턴스 ID
 - `ECR_REPOSITORY_FASTAPI`: FastAPI 이미지용 ECR 리포지토리 이름
 - `ECR_REPOSITORY`: Nginx 이미지용 ECR 리포지토리 이름\n
+
 
